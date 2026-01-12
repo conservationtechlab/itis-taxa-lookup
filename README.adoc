@@ -1,4 +1,4 @@
-= ITIS Data Dash
+= ITIS Taxa Lookup
 
 Simple dashboard [<<dsh,1>>] of taxonomic data sourced from ITIS [<<dat,2>>] that provides:
 
