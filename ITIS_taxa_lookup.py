@@ -98,7 +98,7 @@ gd2 = get_data(GEO)
 ll = pl.read_csv("data/lat_long.csv")
 
 with st.sidebar:
-    st.write("data load date: :blue[2y-Aug-2025]")
+    st.write("data load date: :blue[23-Dec-2025]")
     st.write("---")
     st.write("Stats:")
     tsn_records = str(tsn_count) + " TSN records"
