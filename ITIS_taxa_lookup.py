@@ -143,10 +143,17 @@ species_search = st.text_input(
 )
 
 ## using a regex for \s to define if the search text has multiple words
-pattern = r'.*\s.*'
-if re.match(pattern, species_search, re.IGNORECASE):
-    spp = species_search.split()
-    genus = spp[0]
+#pattern = r'.*\s.*'
+#if re.match(pattern, species_search, re.IGNORECASE):
+#    spp = species_search.split()
+#    genus = spp[0]
+#else:
+#    genus = species_search
+
+# split input to genus/species
+parts = species_search.split()
+if len(parts) > 1:
+    genus = parts[0]
 else:
     genus = species_search
 
